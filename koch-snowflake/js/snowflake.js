@@ -9,7 +9,7 @@
  * @returns 
  */
 const drawCurveRecursive = (ctx, x, y, depth, length, rotation) => {
-    if (depth < 0) throw 'Depth cannot be a negative number.';
+    if (depth < 0) throw `Depth cannot be a negative number. (Received ${depth})`;
     if (depth == 0) {
         const endX = x + Math.cos(rotation) * length;
         const endY = y + Math.sin(rotation) * length;

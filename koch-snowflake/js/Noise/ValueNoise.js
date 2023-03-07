@@ -153,6 +153,11 @@ export class OctaveNoise {
         this.octaves = octaves;
     }
 
+    /**
+     * Gets the interpolated value at a given point
+     * @param  {...Number} coords x0, x1, ..., xn coordinates of a given point
+     * @returns {Number} the value
+     */
     get(...coords) {
         let sum = this.octaves.reduce((total, octave, i) => {
             const thisCoords = coords.map(c => c * (1 << i));

@@ -1,7 +1,7 @@
 import { Blizzard } from "./Blizzard.js";
 
-const height = 200;
-const width = 200;
+const height = 480;
+const width = 720;
 
 let ctx;
 let blizzard;
@@ -13,7 +13,8 @@ let blizzard;
     canvas.width = width;
     canvas.height = height;
 
-    blizzard = new Blizzard(ctx, width, height);
+    blizzard = new Blizzard(ctx, width, height, 100);
+    blizzard.FLAKE_SCALE = 20;
     requestAnimationFrame(snow);
 })();
 
