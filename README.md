@@ -17,4 +17,4 @@ Anyway, the project is pretty simple. Made using the Canvas API. Makes use of a 
 
 - [Wikipedia - Koch Snowflake](https://en.wikipedia.org/wiki/Koch_snowflake) - basic info
 - [Wolfram MathWorld - Koch Snowflake](https://mathworld.wolfram.com/KochSnowflake.html) - some cool stuff with tesselation
-- [That value noise class]() - hi pls look at my stuff
+- [That value noise class](https://github.com/maffiemaffie/maffie-noise) - hi pls look at my stuff
