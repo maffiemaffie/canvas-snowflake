@@ -1,4 +1,4 @@
-import { Blizzard } from "./Blizzard.js";
+import { Blizzard } from "./blizzard.js";
 
 const height = 480;
 const width = 720;
