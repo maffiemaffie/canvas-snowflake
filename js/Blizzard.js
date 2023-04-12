@@ -1,5 +1,5 @@
 import { drawSnowflakeRecursive } from "./snowflake.js";
-import { OctaveNoise } from "./Noise/ValueNoise.js";
+import { OctaveNoise } from "./noise.min.js";
 
 /**
  * Contains methods for animating a blizzard of snowflakes on the canvas.
