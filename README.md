@@ -10,7 +10,7 @@ I'll leave a few links in case you're interested in Koch Curves in the links sec
 
 ---
 ## hi maffie
-Anyway, the project is pretty simple. Made using the Canvas API. Makes use of a value noise class [I wrote](https://github.com/maffiemaffie).
+Anyway, the project is pretty simple. Made using the Canvas API. Makes use of a value noise class [I wrote](https://github.com/maffiemaffie/maffie-noise).
 
 ---
 ## more links
